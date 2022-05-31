@@ -809,6 +809,7 @@ header {
 }
 .form-checkbox:checked+.checkbox-svg>.checkbox-svg-unchecked {
 	opacity: 0;
+
 }
 .form-checkbox-label {
 	padding-left: 13px;
@@ -840,7 +841,7 @@ header {
 	border-radius: 2px;
 }
 .checkbox-svg-unchecked {
-	transition-property: opacity;
+	transition-property: opacity , outline;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	position: absolute;

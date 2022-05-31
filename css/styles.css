@@ -719,7 +719,7 @@ header {
 	transform: translate(50% , 50%) translateY(-150px) scale(0.8) ;
 }
 .modal {
-	padding-top: 40px;
+	padding: 40px 39px 40px 41px;
 	transform-origin: center center;
 	transition-property: transform;
 	display: flex;
@@ -851,7 +851,6 @@ header {
 }
 .modal-conditions-link {
 	text-decoration-line: underline;
-	margin-left: 1px;
 	color: var(--company-color);
 }
 .modal-conditions-link,

@@ -800,7 +800,7 @@ header {
 .form-checkbox:checked + .checkbox-svg > .checkbox-svg-checked {
 	opacity: 1;
 }
-.form-checkbox:hover + .checkbox-svg>.checkbox-svg-unchecked ,
+/* .form-checkbox:hover + .checkbox-svg>.checkbox-svg-unchecked , */
 .form-checkbox:focus + .checkbox-svg > .checkbox-svg-unchecked {
 	outline: 2.5px solid var(--company-color);
 	border-radius: 2px;

@@ -802,7 +802,7 @@ header {
 }
 /* .form-checkbox:hover + .checkbox-svg>.checkbox-svg-unchecked , */
 .form-checkbox:focus + .checkbox-svg > .checkbox-svg-unchecked {
-	border: 1px solid var(--company-color);
+	outline: 1px solid var(--company-color);
 	border-radius: 2px;
 }
 .form-checkbox:checked+.checkbox-svg>.checkbox-svg-unchecked {

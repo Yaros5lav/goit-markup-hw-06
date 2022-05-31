@@ -767,6 +767,7 @@ header {
 	outline: 0;
 }
 .form-svg-cont {
+	display: block;
 	position: relative;
 }
 .form-svg-cont:focus-within {
@@ -807,7 +808,7 @@ header {
 	align-items: center;
 }
 .checkbox-svg {
-
+	display: block;
 	width: 16px;
 	height: 15px;
 	position: relative;
